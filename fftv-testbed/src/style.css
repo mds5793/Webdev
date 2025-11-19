@@ -1,16 +1,16 @@
 .feed {
   width: 100%;
-  height: 328px;
+  height: 300px;
   overflow: hidden;
-  border-radius: 15px;
   box-shadow: 1px 1px 5px 5px grey inset;
+  border-radius: 15px;
 }
 
 .feed-navbar {
   position: relative;
   width: 100%;
   height: 30px;
-  background-color: blue;
+  background-color: #0047ab;
 }
 
 .feed-navbar ul {
@@ -22,24 +22,36 @@
   align-items: center;
 }
 
+.feed-navbar ul li {
+  display: inherit;
+  height: inherit;
+  align-items: center;
+}
+
+.feed-navbar ul li a {
+  text-decoration: none;
+  display: inherit;
+  height: inherit;
+  align-items: center;
+  color: white;
+  padding: 0 15px 0 15px;
+  user-select: none;
+}
+
+.feed-navbar ul li a:hover {
+  background-color: #003989;
+  color: white;
+}
+
 .left {
   margin-right: auto;
 }
 
 .center {
+  margin-right: auto;
   margin-left: auto;
-  margin-right:  auto;
 }
 
 .right {
   margin-left: auto;
-}
-
-.feed-navbar ul li a {
-  color: white;
-  margin: 15px;
-}
-
-.feed-navbar ul li a:hover {
-  text-decoration: underline;
 }
