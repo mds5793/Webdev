@@ -1,0 +1,45 @@
+.feed {
+  width: 100%;
+  height: 328px;
+  overflow: hidden;
+  border-radius: 15px;
+  box-shadow: 1px 1px 5px 5px grey inset;
+}
+
+.feed-navbar {
+  position: relative;
+  width: 100%;
+  height: 30px;
+  background-color: blue;
+}
+
+.feed-navbar ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  height: inherit;
+  display: flex;
+  align-items: center;
+}
+
+.left {
+  margin-right: auto;
+}
+
+.center {
+  margin-left: auto;
+  margin-right:  auto;
+}
+
+.right {
+  margin-left: auto;
+}
+
+.feed-navbar ul li a {
+  color: white;
+  margin: 15px;
+}
+
+.feed-navbar ul li a:hover {
+  text-decoration: underline;
+}
