@@ -40,7 +40,10 @@
 
 .feed-navbar ul li a:hover {
   background-color: #003989;
-  color: white;
+}
+
+.feed-navbar ul li a:active {
+  background-color: #002b67;
 }
 
 .left {
